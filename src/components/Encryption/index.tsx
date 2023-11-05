@@ -46,7 +46,7 @@ export const Encryption = () => {
           variants={slideInFromTop()}
           className="Welcome-box py-1 px-4 border my-5 border-[#7042f88b] opacity-90"
         >
-          <span className="Welcome-text text-xs">security</span>
+          <span className="Welcome-text text-xs">Security</span>
         </motion.div>
       </div>
 

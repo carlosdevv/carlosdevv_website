@@ -1,3 +1,5 @@
+import { Icons } from "@/components/Icons";
+
 export const Socials = [
   {
     name: "Discord",
@@ -68,5 +70,35 @@ export const MainStacks = [
       "NoSQL database to store data making possible create applications very fast.",
     years: new Date().getFullYear() - 2020,
     image: "/images/mongodb.png",
+  },
+];
+
+export const experienceData = [
+  {
+    index: 1,
+    title: "Inter - Frontend Software Engineer",
+    stacks: "React - Typescript - Redux",
+    description:
+      "At Inter I collaborate closely with the business to design, build and implement large-scale platforms capable of capturing hundreds of thousands of B2B customers.",
+    icon: <Icons.earth />,
+    date: "2021 - present",
+  },
+  {
+    index: 2,
+    title: "Alley - Full Stack Software Engineer",
+    stacks: "React - Next.js - Typescript - Node",
+    description:
+      "At Alley, I closely contributed to the design and implementation of a robust digital marketing platform to support, shorten, and facilitate our clients' work. Using React and Node as a stack to deliver a user-friendly and intuitive experience.",
+    icon: <Icons.moon />,
+    date: "2020 - 2021",
+  },
+  {
+    index: 3,
+    title: "Blu Apps - Mobile Software Engineer",
+    stacks: "React Native - Flutter - Dart",
+    description:
+      "I worked at Blury as a Mobile developer, using my experience in React Native and Flutter together with Firebase to develop applications for open stores, such as Apple Store and Google Play.",
+    icon: <Icons.rocket />,
+    date: "2019 - 2020",
   },
 ];
