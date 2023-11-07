@@ -34,7 +34,7 @@ export const ProjectSlider = () => {
           {ProjectsData.map((data) => (
             <SwiperSlide key={data.title}>
               <a href={data.link}>
-                <AspectRatio ratio={16 / 9}>
+                <AspectRatio ratio={16 / 9} className="rounded-md">
                   <div className="relative group">
                     <Image
                       src={data.image}
@@ -43,7 +43,7 @@ export const ProjectSlider = () => {
                       height={1000}
                       className="rounded-md h-full w-full object-cover"
                     />
-                    <div className="cursor-pointer absolute inset-0 bg-gradient-to-r from-violet-800 via-[#030014] to-purple-600 opacity-0 group-hover:opacity-70" />
+                    <div className="cursor-pointer absolute inset-0 bg-gradient-to-r from-violet-800 via-[#030014] to-purple-600 opacity-0 group-hover:opacity-70 rounded-md" />
                     <div className="absolute text-gray-100 inset-0 flex items-center justify-center cursor-pointer opacity-0 group-hover:opacity-100 transition-all">
                       <div className="flex flex-col items-center">
                         <span className="font-light text-2xl text-gray-50">

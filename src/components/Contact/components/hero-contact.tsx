@@ -17,8 +17,8 @@ export const HeroContact = () => {
         <Image
           src="/images/mainIcons.svg"
           alt="icons"
-          width={500}
-          height={500}
+          width={450}
+          height={450}
         />
       </motion.div>
     </div>

@@ -2,16 +2,19 @@ import { Icons } from "@/components/Icons";
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "Linkedin",
+    icon: <Icons.linkedin />,
+    src: "https://www.linkedin.com/in/carlos-lopes-376a32180/",
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "Github",
+    icon: <Icons.github />,
+    src: "https://github.com/carlosdevv",
   },
   {
-    name: "Instagram",
-    src: "/discord.svg",
+    name: "Instragram",
+    icon: <Icons.instagram />,
+    src: "https://www.instagram.com/tiko.lo/",
   },
 ];
 
@@ -105,8 +108,8 @@ export const experienceData = [
 
 export const ProjectsData = [
   {
-    title: 'Project',
-    image: '/images/image-test.png',
-    link: 'https://github.com/carlosdevv'
-  }
-]
+    title: "Project",
+    image: "/images/image-test.png",
+    link: "https://github.com/carlosdevv",
+  },
+];

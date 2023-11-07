@@ -1,6 +1,13 @@
 import { ArrowRightIcon, SparklesIcon } from "@heroicons/react/20/solid";
-import { BoltIcon, BriefcaseIcon, CpuChipIcon, GlobeAmericasIcon, MoonIcon, RocketLaunchIcon } from "@heroicons/react/24/outline";
-import { GithubIcon } from "lucide-react";
+import {
+  BoltIcon,
+  BriefcaseIcon,
+  CpuChipIcon,
+  GlobeAmericasIcon,
+  MoonIcon,
+  RocketLaunchIcon,
+} from "@heroicons/react/24/outline";
+import { GithubIcon, InstagramIcon, LinkedinIcon, LoaderIcon } from "lucide-react";
 
 export const Icons = {
   spark: SparklesIcon,
@@ -11,5 +18,8 @@ export const Icons = {
   moon: MoonIcon,
   earth: GlobeAmericasIcon,
   bolt: BoltIcon,
-  arrowRight: ArrowRightIcon
+  arrowRight: ArrowRightIcon,
+  spinner: LoaderIcon,
+  instagram: InstagramIcon,
+  linkedin: LinkedinIcon,
 };
