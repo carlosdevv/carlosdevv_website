@@ -102,3 +102,11 @@ export const experienceData = [
     date: "2019 - 2020",
   },
 ];
+
+export const ProjectsData = [
+  {
+    title: 'Project',
+    image: '/images/image-test.png',
+    link: 'https://github.com/carlosdevv'
+  }
+]

@@ -20,19 +20,6 @@ export const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-6 text-gray-200 items-center border border-[#ffffff14] bg-[#ffffff05] rounded-full py-2 px-5 md:mr-20 text-sm">
-          <Link
-            href="/"
-            legacyBehavior
-            className="cursor-pointer hover:text-violet-300 transition-colors"
-          >
-            <a href="#home">Home</a>
-          </Link>
-          <Link
-            href="/about"
-            className="cursor-pointer hover:text-violet-300 transition-colors"
-          >
-            Me
-          </Link>
           <a
             href="#skills"
             className="cursor-pointer hover:text-violet-300 transition-colors"
@@ -51,11 +38,22 @@ export const Navbar = () => {
           >
             Projects
           </a>
+          <a
+            href="#contact"
+            className="cursor-pointer hover:text-violet-300 transition-colors"
+          >
+            Contact
+          </a>
         </div>
 
-        <div className="button-primary rounded-lg py-2 px-4 text-white font-light cursor-pointer">
-          Contact
-        </div>
+        <Link
+          href="/about"
+          className="cursor-pointer hover:text-violet-300 transition-colors"
+        >
+          <div className="button-primary rounded-lg py-2 px-4 text-white font-light cursor-pointer">
+            About me
+          </div>
+        </Link>
       </div>
     </div>
   );

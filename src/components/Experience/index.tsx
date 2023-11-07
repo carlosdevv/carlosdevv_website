@@ -32,7 +32,7 @@ export const Experience = () => {
           </motion.div>
           <motion.p
             variants={slideInFromBottom()}
-            className="z-50 text-sm text-gray-400 mt-3 max-w-2xl text-center md:text"
+            className="z-20 text-sm text-gray-400 mt-3 max-w-2xl text-center md:text"
           >
             This is only principal experiences. Also, I have a lot of other
             experiences with other technologies. You can see more in{" "}

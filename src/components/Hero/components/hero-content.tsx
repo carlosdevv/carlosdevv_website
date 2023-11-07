@@ -41,18 +41,6 @@ export const HeroContent = () => {
           lives with my work.
         </motion.p>
       </div>
-
-      {/* <motion.div
-        variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
-      >
-        <Image
-          src="/images/mainIcons.svg"
-          alt="icons"
-          width={650}
-          height={650}
-        />
-      </motion.div> */}
     </motion.div>
   );
 };

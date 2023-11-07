@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { Icons } from "@/components/Icons";
 import Link from "next/link";
+import { ProjectSlider } from "./components/project-slider";
 
 export const Projects = () => {
   return (
@@ -27,9 +28,9 @@ export const Projects = () => {
       </motion.div>
       <motion.p
         variants={slideInFromBottom()}
-        className="z-50 mt-2 text-sm text-gray-400 max-w-2xl text-center md:text"
+        className="z-20 mt-2 text-sm text-gray-400 max-w-2xl text-center md:text"
       >
-        Some projects still are working in progress. As you wish, you can see
+        Some projects still are working in progress. If you wish, you can see
         more in my{" "}
         <Link
           href="https://github.com/carlosdevv"
@@ -38,6 +39,8 @@ export const Projects = () => {
           Github.
         </Link>
       </motion.p>
+      
+      <ProjectSlider />
     </section>
   );
 };
