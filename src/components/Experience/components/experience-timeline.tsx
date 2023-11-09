@@ -1,3 +1,4 @@
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { experienceData } from "@/constants";
 import { slideInFromLeft } from "@/utils/motion";
 import { motion } from "framer-motion";
@@ -41,9 +42,9 @@ export const ExperienceTimeline = () => {
                 <p className="font-normal !mt-0 text-gray-300 !text-sm">
                   {experience.stacks}
                 </p>
-                <p className="!font-normal !mt-2 !text-sm">
+                <ScrollArea className="!font-normal !mt-2 !text-sm h-20">
                   {experience.description}
-                </p>
+                </ScrollArea>
               </div>
             </VerticalTimelineElement>
           </React.Fragment>

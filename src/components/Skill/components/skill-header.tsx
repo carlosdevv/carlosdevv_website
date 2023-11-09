@@ -1,7 +1,11 @@
 "use client";
 
 import { Icons } from "@/components/Icons";
-import { slideInFromLeft, slideInFromRight, slideInFromTop } from "@/utils/motion";
+import {
+  slideInFromLeft,
+  slideInFromRight,
+  slideInFromTop,
+} from "@/utils/motion";
 import { motion } from "framer-motion";
 
 export const SkillHeader = () => {

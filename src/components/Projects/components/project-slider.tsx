@@ -1,14 +1,13 @@
-import image1 from "public/images/image-test.png";
 import { FreeMode, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import { Icons } from "@/components/Icons";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { ProjectsData } from "@/constants";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { Icons } from "@/components/Icons";
-import { ProjectsData } from "@/constants";
 
 export const ProjectSlider = () => {
   return (
