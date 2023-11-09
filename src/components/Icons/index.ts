@@ -1,4 +1,4 @@
-import { ArrowRightIcon, SparklesIcon } from "@heroicons/react/20/solid";
+import { ArrowRightIcon, Bars3Icon, SparklesIcon } from "@heroicons/react/20/solid";
 import {
   BoltIcon,
   BriefcaseIcon,
@@ -22,4 +22,5 @@ export const Icons = {
   spinner: LoaderIcon,
   instagram: InstagramIcon,
   linkedin: LinkedinIcon,
+  menubar: Bars3Icon,
 };

@@ -1,14 +1,13 @@
 "use client";
 
+import { slideInFromRight } from "@/utils/motion";
 import { motion } from "framer-motion";
-import React from "react";
 import Image from "next/image";
 import { ContactForm } from "./contact-form";
-import { slideInFromRight } from "@/utils/motion";
 
 export const HeroContact = () => {
   return (
-    <div className="grid grid-cols-2 w-full mt-24">
+    <div className="grid md:grid-cols-2 md:justify-normal justify-center w-full mt-24">
       <ContactForm />
       <motion.div
         variants={slideInFromRight(0.8)}
@@ -19,6 +18,7 @@ export const HeroContact = () => {
           alt="icons"
           width={450}
           height={450}
+          className="hidden md:block"
         />
       </motion.div>
     </div>

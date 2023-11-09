@@ -49,7 +49,7 @@ export const ContactForm = () => {
     setIsLoadingSendEmail((prev) => prev === true && false);
   };
   return (
-    <div className="flex flex-col w-3/4 ml-auto justify-center">
+    <div className="flex flex-col md:w-3/4 ml-auto justify-center">
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 z-20">
           <div className="grid grid-cols-2 gap-6">

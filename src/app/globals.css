@@ -85,6 +85,10 @@
   font-family: "Cedarville Cursive", cursive;
 }
 
+.not-found {
+  font-family: "Cherry Bomb One", sans-serif;
+}
+
 .Welcome-text {
   background: linear-gradient(
       0deg,

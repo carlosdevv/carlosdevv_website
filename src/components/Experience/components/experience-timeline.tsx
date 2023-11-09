@@ -11,7 +11,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 export const ExperienceTimeline = () => {
   return (
-    <motion.div variants={slideInFromLeft(1)} className="mt-12 z-10">
+    <motion.div variants={slideInFromLeft(1)} className="mt-[600px] md:mt-12 z-10">
       <VerticalTimeline lineColor="#090221">
         {experienceData.map((experience) => (
           <React.Fragment key={experience.index}>
@@ -36,13 +36,13 @@ export const ExperienceTimeline = () => {
               }}
             >
               <div className="custom-card flex flex-col">
-                <h3 className="font-semibold capitalize text-gray-100">
+                <h3 className="font-semibold capitalize text-gray-100 text-sm md:text-lg">
                   {experience.title}
                 </h3>
-                <p className="font-normal !mt-0 text-gray-300 !text-sm">
+                <p className="font-normal mt-1 text-gray-300 text-xs md:text-sm">
                   {experience.stacks}
                 </p>
-                <ScrollArea className="!font-normal !mt-2 !text-sm h-20">
+                <ScrollArea className="font-normal mt-2 text-sm md:text-base h-24 md:h-32">
                   {experience.description}
                 </ScrollArea>
               </div>

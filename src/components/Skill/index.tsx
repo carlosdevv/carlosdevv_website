@@ -11,7 +11,7 @@ export const Skill = () => {
     >
       <SkillHeader />
       <div className="flex flex-wrap max-w-6xl w-full">
-        <div className="grid grid-cols-4">
+        <div className="grid md:grid-cols-4">
           {MainStacks.map((stacks, index) => (
             <SkillCard
               key={stacks.name}
