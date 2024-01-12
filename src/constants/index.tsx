@@ -108,8 +108,14 @@ export const experienceData = [
 
 export const ProjectsData = [
   {
-    title: "Project",
-    image: "/images/image-test.png",
-    link: "https://github.com/carlosdevv",
+    title: "Bordeless Community",
+    image: "/images/shoppilot.png",
+    github: "https://github.com/carlosdevv/sem-patria-community",
+  },
+  {
+    title: "ShopPilot - Admin",
+    image: "/images/shoppilot.png",
+    github: "https://github.com/carlosdevv/shoppilot-admin",
+    liveDemo: "https://shoppilot-admin.vercel.app",
   },
 ];
