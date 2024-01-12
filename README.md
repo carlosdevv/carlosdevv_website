@@ -8,6 +8,8 @@ Next steps of this project are add an image of my projects in the portfolio sect
 ### # Technologies used
 - Next.js
 - TailwindCss
+- Framer Motion
+- Resend
 - Zustand
 - shadcn-ui
 
