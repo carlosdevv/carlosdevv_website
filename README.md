@@ -1,4 +1,4 @@
-# Personal website -- [Live Demo](https://carlosdev.me)
+# Personal website -- [Website](https://carlosdev.me)
 ### # Purpose
 The purpose of this project was to practice my knowledge of Next.js and refactor my portfolio website.
 
