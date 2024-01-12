@@ -12,8 +12,8 @@ Next steps of this project are add an image of my projects in the portfolio sect
 - Resend
 - Zustand
 - shadcn-ui
-
 <br />
+
 ### Run the project
 This project was created using [Next.js](https://nextjs.org/)
 <br />
